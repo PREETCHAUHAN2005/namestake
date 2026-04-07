@@ -7,6 +7,7 @@ Register short names on the Stellar blockchain and link them to your wallet addr
 
 |---|---|
 | **Frontend** | `https://namestake.vercel.app` |
+
 | **Contract** | `https://stellar.expert/explorer/testnet/contract/CCQP5SZDY6VX474KOFZIJ6QG6SLSZZ5MRB5VVYJDER6NI7W5OUZWKFMS` | 
 
 
