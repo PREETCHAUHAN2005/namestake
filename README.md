@@ -4,12 +4,10 @@ Register short names on the Stellar blockchain and link them to your wallet addr
 
 ## Live Links
 
-
-
+| | |
+|---|---|
 | **Frontend** | `https://namestake.vercel.app` |
-
-| **Contract** | `https://stellar.expert/explorer/testnet/contract/CCQP5SZDY6VX474KOFZIJ6QG6SLSZZ5MRB5VVYJDER6NI7W5OUZWKFMS` | 
-
+| **Contract** | `https://stellar.expert/explorer/testnet/contract/CDT57UR5LL6BMSM6YYZLGHSMJQ4KG27VQ2SU6RJOOXHW6XJU5XZ4J5S5` |
 
 ## Rules
 
@@ -18,6 +16,16 @@ Register short names on the Stellar blockchain and link them to your wallet addr
 - First-come, first-served — no expiry
 - Claim fee: **0.5 XLM** · Transfer fee: **0.2 XLM** · Release: free
 
+## Why This Project Matters
+
+This project turns a familiar real-world workflow into a verifiable on-chain primitive on Stellar: transparent state transitions, user-authenticated actions, and deterministic outcomes.
+
+## Architecture
+
+- **Smart Contract Layer**: Soroban contract enforces business rules, authorization, and state transitions.
+- **Client Layer**: React + Vite frontend handles wallet UX, transaction composition, and real-time status views.
+- **Wallet/Auth Layer**: Freighter signs every state-changing action so operations are attributable and non-repudiable.
+- **Infra Layer**: Stellar Testnet + Soroban RPC for execution; Vercel for frontend hosting.
 ## Contract Functions
 
 ```rust
@@ -46,3 +54,5 @@ total_names() -> u32
 chmod +x scripts/deploy.sh && ./scripts/deploy.sh
 cd frontend && npm install && npm run dev
 ```
+
+
