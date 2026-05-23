@@ -97,14 +97,6 @@ Register short names on the Stellar blockchain and link them to your wallet addr
 
 This project turns a familiar real-world workflow into a verifiable on-chain primitive on Stellar: transparent state transitions, user-authenticated actions, and deterministic outcomes.
 
-## Architecture
-
-- **Smart Contract Layer**: Soroban contract enforces business rules, authorization, and state transitions.
-- **Client Layer**: React + Vite frontend handles wallet UX, transaction composition, and real-time status views.
-- **Wallet/Auth Layer**: Freighter signs every state-changing action so operations are attributable and non-repudiable.
-- **Infra Layer**: Stellar Testnet + Soroban RPC for execution; Vercel for frontend hosting.
-## Contract Functions
-
 ```rust
 claim(claimer, name, xlm_token)
 transfer(from, to, name, xlm_token)
