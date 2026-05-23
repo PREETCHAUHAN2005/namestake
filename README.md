@@ -86,12 +86,6 @@ Register short names on the Stellar blockchain and link them to your wallet addr
 | **Frontend** | `https://namestake.vercel.app` |
 | **Contract** | `https://stellar.expert/explorer/testnet/contract/CDT57UR5LL6BMSM6YYZLGHSMJQ4KG27VQ2SU6RJOOXHW6XJU5XZ4J5S5` |
 
-## Rules
-
-- Names: 3–20 characters, lowercase `a–z`, digits `0–9`, hyphens
-- No leading or trailing hyphens
-- First-come, first-served — no expiry
-- Claim fee: **0.5 XLM** · Transfer fee: **0.2 XLM** · Release: free
 
 ## Why This Project Matters
 
